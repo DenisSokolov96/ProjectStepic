@@ -1,5 +1,6 @@
 package org.denis.stream;
 
+import java.math.BigDecimal;
 import java.util.Comparator;
 import java.util.function.BiConsumer;
 import java.util.function.IntSupplier;
@@ -10,13 +11,8 @@ public class MainStream {
     public static void main(String[] args) {
 
         // pseudoRandomStream
-         IntStream intStream = pseudoRandomStream(13);
+        // IntStream intStream = pseudoRandomStream(13);
         // intStream.limit(10).forEach(System.out::println);
-
-        // findMinMax
-//        Comparator order = new
-//        IntStream intStream2 = findMinMax(intStream,,);
-//        intStream2.limit(2).forEach(System.out::println);
 
     }
 
